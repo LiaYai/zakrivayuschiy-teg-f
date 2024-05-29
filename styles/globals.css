@@ -33,8 +33,15 @@ a {
 button,
 input {
   color: currentColor;
-  font-family: inherit;
-  font-size: inherit;
+  font-family: var(--accent-font);
+  font-size: var(--font-size-button);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button:focus,
+button:focus-visible {
+  outline: none;
 }
 
 ul,
@@ -44,10 +51,10 @@ ol {
 
 .visually-hidden {
   position: absolute;
-  inline-size: 1px;
-  block-size: 1px;
   overflow: hidden;
   clip: rect(0 0 0 0);
+  inline-size: 1px;
+  block-size: 1px;
   clip-path: inset(50%);
   white-space: nowrap;
 }
