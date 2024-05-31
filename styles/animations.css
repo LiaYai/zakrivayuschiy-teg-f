@@ -74,6 +74,7 @@
 }
 
 @keyframes motion {
+
   from {
     translate: 0;
   }
@@ -84,6 +85,7 @@
 }
 
 @keyframes heartbeat {
+
   from {
     scale: 1;
   }
@@ -94,6 +96,7 @@
 }
 
 @keyframes sparkling {
+
   from {
     opacity: 0;
   }
